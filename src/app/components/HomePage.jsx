@@ -61,7 +61,98 @@ export default function Home() {
             <hr className={styles.lineHr} />
         </div>
 
+        <div className={`${styles.bodySidebar} ${isVisible ? styles.visible : styles.hidden}`}>
 
+            <div className={styles.sidebarContent}>
+
+                <div className={styles.sidebarRowCheckbox}>
+                    <input type="checkbox" id="myCheckbox" />
+                    <label htmlFor="myCheckbox">CUSTOMIZBLE</label>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>IDEAL FOR</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>OCCATION</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>WORK</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>FABRIC</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>SEGMENT</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>SUITABLE FOR</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>RAW MATERIALS</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+                <div className={styles.sidebarRow}>
+                    <div className={styles.headingSidebar}>
+                        <p>PATTERN</p>
+                        <IconChevronDown />
+                    </div>
+                    <div>
+                        <p>All</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
         <div className={isVisible ? styles.mainBodyContents : styles.hideFilterMainBodyContents}>
 
