@@ -1,6 +1,7 @@
 "use client";
 import { IconArrowLeft, IconArrowRight, IconCheck, IconChevronDown, IconChevronLeft, IconChevronRight, IconChevronsDown, IconDirection, IconHeart } from '@tabler/icons-react';
-import styles from '@/app/styles/home.module.css'
+import styles from '@/app/styles/home.module.css';
+import heroStyles from '@/app/styles/heroSection.module.css';
 import { useState } from "react";
 import React from 'react'
 import Image from 'next/image';
@@ -27,6 +28,19 @@ export default function Home() {
 
       <div className={styles.mainBody}>
         <div className={styles.bodyContent}>
+          <div className={heroStyles.heroSectionHomeShop}>
+            <p className={heroStyles.homeP}>HOME</p>
+            <div className={heroStyles.verticalLine}></div>
+            <p className={heroStyles.shopP}>SHOP</p>
+          </div>
+          <div className={heroStyles.heroSection}>
+
+            <div className={heroStyles.heroSectionContent}>
+              <h1 className={heroStyles.heroSectionH1}>DISCOVER OUR PRODUCTS</h1>
+              <p className={heroStyles.textContent}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro ipsa delectus tempore iusto. Harum praesentium ut dolorum sapiente blanditiis doloribus Lorem ipsum dolor sit amet ipsum dolor sit   </p>
+            </div>
+
+          </div>
 
           <div className={styles.bodyContentHead}>
             <hr className={styles.lineHr} />
