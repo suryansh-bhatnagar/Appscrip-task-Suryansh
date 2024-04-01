@@ -4,10 +4,10 @@ import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <>
       <Header />
       <HomePage />
       <Footer />
-    </div>
+    </>
   );
 }
